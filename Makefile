@@ -14,7 +14,7 @@ original:
 linter: original
 	diff -u original/asdl.py asdl.py | pep8 --diff .
 	diff -u original/test_asdl_parser.py test/test_asdl.py | pep8 --diff .
-	pep8 --exclude=./original/,./asdl.py,./test/test_asdl.py .
+	pep8 --exclude=./original/,./asdl.py,./test/test_asdl.py --ignore=E251 .
 
 dist-upload: linter test
 	python setup.py sdist bdist_wheel

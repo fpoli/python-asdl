@@ -1,13 +1,10 @@
 """Tests for the asdl parser in Parser/asdl.py"""
 
 import os
-from os.path import dirname
-import sys
-import sysconfig
 import unittest
 import asdl
 
-test_dir = dirname(__file__)
+test_dir = os.path.dirname(__file__)
 
 
 class TestAsdlParser(unittest.TestCase):
