@@ -1,7 +1,7 @@
 python-asdl
 =================
 
-Python (2.6 ~ 3.5) library containing the CPython 3.x ASDL parser, cleaned and
+Python (2.7 ~ 3.5) library containing the CPython 3.x ASDL parser, cleaned and
 packaged here for convenience.
 
 
