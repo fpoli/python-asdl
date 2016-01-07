@@ -8,7 +8,7 @@ here = path.abspath(path.dirname(__file__))
 
 version = "0.1.2"
 
-description = "ASDL parser."
+description = "A copy of the ASDL parser used in CPython 3.5."
 
 with open(path.join(here, "README.rst"), encoding="utf-8") as f:
     long_descr = f.read()

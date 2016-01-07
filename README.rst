@@ -1,12 +1,10 @@
 python-asdl
 =================
 
-Python (2.7 ~ 3.5) library containing the CPython 3.x ASDL parser, cleaned and
-packaged here for convenience.
-
-
 .. image:: https://travis-ci.org/fpoli/python-asdl.svg?branch=master
     :target: https://travis-ci.org/fpoli/python-asdl
+
+A copy of the ASDL parser used in CPython 3.5, cleaned a bit and packaged here.
 
 
 Installation
