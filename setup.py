@@ -6,7 +6,7 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-version = "0.1.3"
+version = "0.1.4"
 
 description = "A copy of the ASDL parser used in CPython 3.5."
 
