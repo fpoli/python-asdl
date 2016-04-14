@@ -37,11 +37,9 @@ Usage
 
 Output:
 
-.. code-block::
-
     Module(Lambda, [Type(term, Sum([Constructor(Lambda, [Field(name, x), Field(term, body)]), Constructor(Apply, [Field(term, function), Field(term, argument)]), Constructor(Variable, [Field(name, x)])]))])
 
-    Module(Python, [Type(mod, Sum([Constructor(Module, [Field(stmt, body, seq=True)]), Constructor(Interactive, [Field(stmt, body, seq=True)]), Constructor(Expression, [Field(expr, body)]), Constructor(Suite, ...
+    Module(Python, [Type(mod, Sum([Constructor(Module, [Field(stmt, body, seq=True)]), Constructor(Interactive, [Field(stmt, body, seq=True)]), Constructor(Expression, [Field(expr, body)]), Constructor(Suite, [Field(stmt, body, seq=True)])])), Type(stmt, Sum([Constructor(FunctionDef, [Field(identifier, name), Field(arguments, args), Field(stmt, body, seq=True), Field(expr, decorator_list, seq=True), Field(expr, returns, opt=True)]), ...
 
 
 License
