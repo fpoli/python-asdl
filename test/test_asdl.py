@@ -1,4 +1,4 @@
-"""Tests for the asdl parser in Parser/asdl.py"""
+"""Tests for the asdl parser in asdl.py"""
 
 import os
 import unittest

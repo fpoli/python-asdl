@@ -1,0 +1,6 @@
+module Lambda {
+    term =
+        Lambda(name x, term body) |
+        Apply(term function, term argument) |
+        Variable(name x)
+}
